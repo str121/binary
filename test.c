@@ -1,9 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 
 	int main(void){
-		int num = 13;
+		int num;
 		int arr[10];
 	int idx = 0;
+
+	printf("숫자 입력 : "); scanf("%d",&num);
 
 	while (1){
 		arr[idx] = num % 2;
